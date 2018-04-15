@@ -24,8 +24,4 @@ def Turn(String):
     }
 
     r = requests.post(url, json=body);
-    print(r.text);
     return r.text;
-
-if __name__ == '__main__':
-    Turn("你好吗");
